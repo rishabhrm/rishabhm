@@ -3,11 +3,11 @@ import React from "react";
 import {
     IconBrandGithub,
     IconBrandLinkedin,
-    IconBrandX, 
-    IconHome,
-    IconBrandBluesky,
+    IconBrandX,
+    IconHome
 } from "@tabler/icons-react";
 import { FaMedium } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
 import { FloatingDock } from "./ui/floating-dock";
 import { ModeToggle } from "./mode-toggle";
 import { FileUser } from "lucide-react";
@@ -26,15 +26,8 @@ export function FloatingDockDemo() {
             icon: (
                 <FaMedium className="h-full w-full text-neutral-500 dark:text-neutral-300" />
             ),
-            href: "https://medium.com/@rishabhmx",
+            href: "https://medium.com/@",
         },
-        // {
-        //     title: "Resume",
-        //     icon: (
-        //         <FileUser className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-        //     ),
-        //     href: "https://drive.google.com/file/",
-        // },
         {
             title: "LinkedIn",
             icon: (
@@ -42,27 +35,26 @@ export function FloatingDockDemo() {
             ),
             href: "https://www.linkedin.com/in/",
         },
-
         {
             title: "Twitter",
             icon: (
                 <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
             ),
-            href: "https://x.com/rishabhmx",
+            href: "https://x.com/",
         },
         {
             title: "GitHub",
             icon: (
                 <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
             ),
-            href: "https://github.com/rishabhrm",
+            href: "https://github.com/",
         },
         {
-            title: "Bluesky",
+            title: "Instagram",
             icon: (
-                <IconBrandBluesky className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+                <FaInstagram className="h-full w-full text-neutral-500 dark:text-neutral-300" />
             ),
-            href: "https://bsky.app/profile/",
+            href: "https://instagram.com/",
         },
         {
             title: "Mode",

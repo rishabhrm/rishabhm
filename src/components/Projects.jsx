@@ -17,7 +17,16 @@ const Projects = () => {
     },
      {
       banner: solPayReady,
-      title: "Kizoku",
+      title: "showcase",
+      from_to_date: "Aug 2024 - Oct 2024",
+      description: "A cross-platform mobile application built using flutter to keep track of movies/tv shows you've watched, and more.",
+      keywords: ["Flutter", "Firebase", "Provider"],
+      web: "https://",
+      repo: "https://github.com/rishabhrm/showcase"
+    },
+     {
+      banner: solPayReady,
+      title: "Lighthouse Cafe",
       from_to_date: "Jul 2024 - Sep 2025",
       description: "Chat app built with websockets",
       keywords: ["React", "Tailwind", "SocketIO", "Cloudinary"],
@@ -26,21 +35,12 @@ const Projects = () => {
     },
      {
       banner: solPayReady,
-      title: "Kizoku",
-      from_to_date: "Jul 2024 - Sep 2025",
-      description: "Chat app built with websockets",
-      keywords: ["React", "Tailwind", "SocketIO", "Cloudinary"],
-      web: "https://kizoku.vercel.app/",
-      repo: "https://github.com/rishabhrm/kizoku-frontend"
-    },
-     {
-      banner: solPayReady,
-      title: "Kizoku",
-      from_to_date: "Jul 2024 - Sep 2025",
-      description: "Chat app built with websockets",
-      keywords: ["React", "Tailwind", "SocketIO", "Cloudinary"],
-      web: "https://kizuna.vercel.app/",
-      repo: "https://github.com/rishabhrm/kizoku-frontend"
+      title: "Noughts & Crosses",
+      from_to_date: "Jul 2023 - Aug 2024",
+      description: "A classic Tic-Tac-Toe game implemented using HTML, CSS, and JavaScript with a wonderful UI design.",
+      keywords: ["HTML", "CSS", "JavaScript"],
+      web: "https://",
+      repo: "https://github.com/rishabhrm/noughts-crosses/"
     },
     // {
     //   banner: byteScreen,
@@ -103,7 +103,7 @@ const Projects = () => {
       <HighLight text={"My Projects"} />
       <h1 className='mt-8 whitespace-pre-wrap bg-gradient-to-br bg-clip-text lg:text-5xl md:text-4xl leading-none text-center text-black dark:text-white font-semibold tracking-tight text-balance text-3xl translate-y-[-1rem] animate-fade-in'>Check out my latest work</h1>
       <div className='max-w-lg text-center mx-auto my-3'>
-        <p className='text-xl dark:text-white/50 text-black/50 font-light'>Explore a selection of my best web projects, ranging from sleek websites to complex applications.</p>
+        <p className='text-xl dark:text-white/50 text-black/50 font-light'>Explore a selection of my best web/mobile projects, ranging from sleek websites to complex applications.</p>
       </div>
       {/* This will contain the projects */}
       <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mt-8'>

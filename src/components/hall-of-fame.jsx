@@ -14,11 +14,11 @@ const HallOfFame = () => {
     const hallOfFame = [
         {
             logo: "https://avatars.githubusercontent.com/u/182339599?s=200&v=4",
-            company_name: "Void",
-            title: "A blogging platform",
+            company_name: "LeaseLink",
+            title: "Real Estate Rental App",
             href: "https://",
             from_to_date: "May 2025 - Present",
-            description: "lorem34"
+            description: "A full-stack Next.js application designed to connect homeowners with potential tenants, making it easier for both sides to find the perfect match. The platform will be deployed on AWS for reliable performance, scalability, and secure hosting."
         },
         
     ]

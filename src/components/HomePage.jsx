@@ -8,19 +8,19 @@ import Education from './Education'
 import Projects from './Projects'
 import ContactMe from './ContactMe'
 import ContributionsGraph from './ContributionsGraph'
-import LastUpdated from './LastUpdated'
 import HallOfFame from './hall-of-fame'
+import LastUpdated from './LastUpdated'
 
 const HomePage = () => {
     return (
         <div className='w-full max-w-2xl mx-auto'>
             <Title />
-            <About />
+            <About /><br />
             {/* <Gallery /> */}
             <HallOfFame />
             {/* <Experiences /> */}
             {/* <Education /> */}
-            <Projects />
+            <Projects /><br />
             {/* <ContributionsGraph /> */}
             {/* <ContactMe /> */}
             <LastUpdated />
