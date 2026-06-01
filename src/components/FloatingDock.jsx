@@ -6,11 +6,9 @@ import {
     IconBrandX,
     IconHome
 } from "@tabler/icons-react";
-import { FaMedium } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FloatingDock } from "./ui/floating-dock";
 import { ModeToggle } from "./mode-toggle";
-import { FileUser } from "lucide-react";
 
 export function FloatingDockDemo() {
     const links = [
@@ -20,13 +18,6 @@ export function FloatingDockDemo() {
                 <IconHome className="h-full w-full text-neutral-500 dark:text-neutral-300" />
             ),
             href: "/",
-        },
-        {
-            title: "Blogs",
-            icon: (
-                <FaMedium className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-            ),
-            href: "https://medium.com/@",
         },
         {
             title: "LinkedIn",
@@ -67,8 +58,6 @@ export function FloatingDockDemo() {
     return (
         (<div className="flex fixed w-full">
             <FloatingDock
-                // only for demo, remove for production
-                // mobileClassName="sm:block"
                 items={links}
                 className="left-1/2 transform -translate-x-1/2"
             />

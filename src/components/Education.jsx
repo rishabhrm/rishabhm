@@ -6,28 +6,18 @@ import Image from 'next/image'
 
 const Education = () => {
     const experiences = [
-        // {
-        //     logo: "https://1000logos.net/wp-content/uploads/2022/09/Unacademy-Symbol.png",
-        //     company_name: "Unacademy",
-        //     title: "GATE (Graduate Aptitude Test in Engineering) Computer Science",
-        //     from_to_date: "May 2022 - Mar 2023"
-
-        // },
-        // {
-        //     logo: "https://upload.wikimedia.org/wikipedia/en/3/3a/Lovely_Professional_University_logo.png",
-        //     company_name: "Lovely Professional University",
-        //     title: "Bachelor of Technology, Electronics and Communication Engineering",
-        //     from_to_date: "Aug 2017 - Aug 2021"
-        // },
+        {
+            logo: "https://upload.wikimedia.org/wikipedia/en/5/5b/RK_University_logo.png",
+            company_name: "RK University, Rajkot",
+            title: "Bachelor of Technology, Computer Science and Engineering",
+            from_to_date: "Sep 2022 - May 2026"
+        },
         // {
         //     logo: "https://i.pinimg.com/originals/5a/4e/f9/5a4ef9b9d7806da10afb1e9b3efdb22d.png",
         //     company_name: "Kendriya Vidyalaya",
-        //     title: "Higher Secondary Education (10+2)",
-        //     from_to_date: "Sep 2024 - Present"
-
+        //     title: "Higher School Education",
+        //     from_to_date: "bnjg"
         // },
-        
-
     ]
     return (
         <div className='my-3 w-full max-w-2xl mx-auto'>

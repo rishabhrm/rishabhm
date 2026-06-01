@@ -47,7 +47,6 @@ const Experiences = () => {
         //     from_to_date: "Sep 2021 - Feb 2022",
         //     description: "Played a key role in developing and implementing the HRMS for centralized employee data management, a Legal Module for streamlined case handling and lawyer communications, and a Note Sheet Module to digitize internal government communications. Responsibilities included gathering client requirements, preparing documentation, and maintaining daily client liaison, significantly reducing processing time and minimizing errors across the organization's operations."
         // },
-
     ]
     return (
         <div className='w-full max-w-2xl mx-auto'>

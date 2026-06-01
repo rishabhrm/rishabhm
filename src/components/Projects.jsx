@@ -7,97 +7,115 @@ import solPayReady from '../../public/assets/solpay-ready.jpeg'
 const Projects = () => {
   const myProjects = [
     {
-      banner: solPayReady,
-      title: "Kizoku",
-      from_to_date: "Jul 2024 - Sep 2025",
-      description: "Chat app built with websockets",
-      keywords: ["React", "Tailwind", "SocketIO", "Cloudinary"],
-      web: "https://kizoku.vercel.app/",
-      repo: "https://github.com/rishabhrm/kizoku-frontend"
-    },
-     {
-      banner: solPayReady,
-      title: "showcase",
-      from_to_date: "Aug 2024 - Oct 2024",
-      description: "A cross-platform mobile application built using flutter to keep track of movies/tv shows you've watched, and more.",
-      keywords: ["Flutter", "Firebase", "Provider"],
-      web: "https://",
-      repo: "https://github.com/rishabhrm/showcase"
-    },
-     {
-      banner: solPayReady,
-      title: "Lighthouse Cafe",
-      from_to_date: "Jul 2024 - Sep 2025",
-      description: "Chat app built with websockets",
-      keywords: ["React", "Tailwind", "SocketIO", "Cloudinary"],
-      web: "https://kizoku.vercel.app/",
-      repo: "https://github.com/rishabhrm/kizoku-frontend"
-    },
-     {
-      banner: solPayReady,
-      title: "Noughts & Crosses",
-      from_to_date: "Jul 2023 - Aug 2024",
-      description: "A classic Tic-Tac-Toe game implemented using HTML, CSS, and JavaScript with a wonderful UI design.",
-      keywords: ["HTML", "CSS", "JavaScript"],
-      web: "https://",
-      repo: "https://github.com/rishabhrm/noughts-crosses/"
-    },
-    // {
-    //   banner: byteScreen,
-    //   title: "0byte",
-    //   from_to_date: "Sep 2024 - Present",
-    //   description: "0byte is a zero-knowledge infrastructure layer that invisibly embeds tamper-evident proofs into AI-generated media as it’s created, anchoring those proofs on Solana so anyone can verify authenticity without revealing private data.",
-    //   keywords: ["Nextjs", "Tailwind CSS", "Solana SDK","Python", "ZKP", "Anchor", "Rust"],
-    //   web: "https://0byte.tech/",
-    //   repo: "https://github.com/0byte-lab"
-    // },
-    // {
-    //   gif:"https://my-projects-gifs.s3.amazonaws.com/tauth.mov",
-    //   title: "TAuth - New-Gen Authentication",
-    //   from_to_date: "Nov 2024 - Present",
-    //   description: "TAuth uses advanced algorithms to analyze and verify users based on their unique typing patterns. This provides an additional layer of security beyond traditional authentication methods.",
-    //   keywords: ["Vite", "React", "Tailwind CSS", "PostgreSQL", "Golang", "Atom State Management"],
-    //   web: "https://tauth.vercel.app/",
-    //   repo: "https://github.com/sidpan2011/tauth"
-    // },
-    // {
-    //   gif: "https://my-projects-gifs.s3.amazonaws.com/zerobyte-wallet.mov",
-    //   title: "ZeroByte Wallet",
-    //   from_to_date: "Oct 2024 - Present",
-    //   description: "A privacy-focused Solana wallet for anonymous transactions, offering easy integration and simplified Web3 payments.",
-    //   keywords: ["Vite", "React", "Tailwind CSS", "Clerk", "Solana SDK"],
-    //   web: "https://wallet.0byte.tech/",
-    //   repo: "https://github.com/zr0byte/zerobyte-wallet"
-    // },
-    // {
-    //   gif: "https://my-projects-gifs.s3.amazonaws.com/taskly.mov",
-    //   title: "Taskly",
-    //   from_to_date: "Aug 2024 - Present",
-    //   description: "A revamped task management app built with Next.js 14, React, and enhanced UI using Tailwind CSS, Shadcn UI, and Magic UI.",
-    //   keywords: ["Next.js 14","React", "Tailwind CSS", "Clerk"],
-    //   web: "",
-    //   repo: "https://github.com/sidpan2011/your-todo-v2"
-    // },
-    // {
-    //   gif: "https://my-projects-gifs.s3.amazonaws.com/your-todo.mov",
-    //   title: "Your To-do App v1",
-    //   from_to_date: "Mar 2024 - Apr 2024",
-    //   description: "A simple UI friendly todo app, you can create, edit, pin to top and mark as done and more using React, CSS and Redux.",
-    //   keywords: ["Vite","React", "CSS", "Redux"],
-    //   web: "https://yourto-do.netlify.app/",
-    //   repo: "https://github.com/sidpan2011/your-todo"
-    // },
-    // {
-    //   gif: "https://my-projects-gifs.s3.amazonaws.com/typing-master.mov",
-    //   title: "Typing Master",
-    //   from_to_date: "Jun 2023 - Aug 2023",
-    //   description: "A minimalist game to improve typing speed, offering detailed performance analysis (WPM, accuracy, errors) with a user-friendly interface.",
-    //   keywords: ["JavaScript", "CSS", "HTML"],
-    //   web: "https://typing-master0.netlify.app/",
-    //   repo: "https://github.com/sidpan2011/Typing-Master"
-    // },
-    
-  ]
+    "id": 1,
+    "title": "Bizflow ERP",
+    "monogramText": "BF",
+    "description": "It is a full-stack enterprise resource planning solution built to streamline core business operations. It features centralized interactive dashboards, a secure Node.js backend with robust role-based access control, and optimized NoSQL database schemas.",
+    "tags": [
+      "React.js",
+      "Node.js",
+      "MongoDB",
+      "Tailwind"
+    ],
+    "link": "https://example.com/bizflow-live",
+    "githubLink": "https://github.com/rishabhrm/bizflow"
+  },
+      {
+    "id": 1,
+    "title": "Bizflow ERP",
+    "monogramText": "BF",
+    "description": "It is a full-stack enterprise resource planning solution built to streamline core business operations. It features centralized interactive dashboards, a secure Node.js backend with robust role-based access control, and optimized NoSQL database schemas.",
+    "tags": [
+      "React.js",
+      "Node.js",
+      "MongoDB",
+      "Tailwind"
+    ],
+    "link": "https://example.com/bizflow-live",
+    "githubLink": "https://github.com/rishabhrm/bizflow"
+  },
+  {
+    "id": 3,
+    "title": "Pantripick Grocery",
+    "monogramText": "PP",
+    "description": "It is a comprehensive grocery e-commerce platform that includes category-based product listings, dynamic cart management, and seamless checkout flows. It is powered by scalable REST APIs and secure JWT authentication.",
+    "tags": [
+      "React.js",
+      "Express.js",
+      "PostgreSQL",
+      "JWT"
+    ],
+    "link": "https://example.com/pantripick-live",
+    "githubLink": "https://github.com/rishabhrm/pantripick"
+  },
+ 
+   {
+    "id": 4,
+    "title": "Showcase",
+    "monogramText": "SC",
+    "description": "It allows users to explore movies, TV shows, and actors with personalized features. Create custom tracking lists, write reviews, browse detailed information, and manage your profile seamlessly.",
+    "tags": [
+      "Flutter",
+      "Firebase",
+      "Provider"
+    ],
+    "link": "https://kizoku.vercel.app/",
+    "githubLink": "https://github.com/rishabhrm/showcase"
+  },
+  {
+    "id": 5,
+    "title": "Drive Rental",
+    "monogramText": "DR",
+    "description": "A feature-rich vehicle rental platform designed for a seamless user experience. It features advanced search filtering, responsive micro-interactions for vehicle browsing, and a dynamic availability system to streamline the rental booking process.",
+    "tags": [
+      "React.js",
+      "Chakra UI",
+      "Laravel"
+    ],
+    "link": "https://example.com/drive-rental-live",
+    "githubLink": "https://github.com/rishabhrm/drive-rental"
+},
+  {
+    "id": 6,
+    "title": "Barely 75",
+    "monogramText": "B75",
+    "description": "It is a mobile application designed to help students effortlessly manage and monitor class attendance. Maintain the golden 75% benchmark and stay on top of subject-wise stats with an intuitive interface.",
+    "tags": [
+      "Flutter",
+      "Dart",
+      "GetX",
+      "Firebase"
+    ],
+    "link": "https://barely-75-web.vercel.app/",
+    "githubLink": "https://github.com/rishabhrm/barely-75"
+  },
+ {
+    "id": 7,
+    "title": "Kizuna",
+    "monogramText": "KZ",
+    "description": "It is a real-time chat application built with WebSockets to enable seamless, instant messaging. The platform integrates Cloudinary for efficient media sharing and features a highly responsive, modern interface.",
+    "tags": [
+      "React",
+      "SocketIO",
+      "Cloudinary"
+    ],
+    "link": "https://kizuna-frontend.vercel.app/",
+    "githubLink": "https://github.com/rishabhrm/kizuna-frontend"
+  },
+  {
+    "id": 8,
+    "title": "Noughts & Crosses",
+    "monogramText": "NC",
+    "description": "It is a classic Tic-Tac-Toe game implemented with a wonderful and highly interactive UI design. Built completely from scratch using core web technologies, it offers a smooth, lightweight gaming experience.",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "link": "https://noughts-crosses-five.vercel.app/",
+    "githubLink": "https://github.com/rishabhrm/noughts-crosses/"
+  }
+]
   return (
     <div className='my-8'>
       <HighLight text={"My Projects"} />
