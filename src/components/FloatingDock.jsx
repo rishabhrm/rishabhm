@@ -6,7 +6,6 @@ import {
     IconBrandX,
     IconHome
 } from "@tabler/icons-react";
-import { FaInstagram } from "react-icons/fa";
 import { FloatingDock } from "./ui/floating-dock";
 import { ModeToggle } from "./mode-toggle";
 
@@ -39,13 +38,6 @@ export function FloatingDockDemo() {
                 <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
             ),
             href: "https://github.com/",
-        },
-        {
-            title: "Instagram",
-            icon: (
-                <FaInstagram className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-            ),
-            href: "https://instagram.com/",
         },
         {
             title: "Mode",

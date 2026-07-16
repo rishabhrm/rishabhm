@@ -1,23 +1,17 @@
 import React from 'react'
 import BlurFade from './ui/blur-fade'
-import HighLight from './HighLight'
 import Image from 'next/image'
 
 
 const Education = () => {
     const experiences = [
         {
-            logo: "https://upload.wikimedia.org/wikipedia/en/5/5b/RK_University_logo.png",
+            logo: "/assets/rku.png",
             company_name: "RK University, Rajkot",
-            title: "Bachelor of Technology, Computer Science and Engineering",
+            title: "Bachelor of Technology, Computer Engineering",
+            href: "https://www.rku.ac.in/",
             from_to_date: "Sep 2022 - May 2026"
-        },
-        // {
-        //     logo: "https://i.pinimg.com/originals/5a/4e/f9/5a4ef9b9d7806da10afb1e9b3efdb22d.png",
-        //     company_name: "Kendriya Vidyalaya",
-        //     title: "Higher School Education",
-        //     from_to_date: "bnjg"
-        // },
+        }
     ]
     return (
         <div className='my-3 w-full max-w-2xl mx-auto'>
@@ -27,7 +21,9 @@ const Education = () => {
                     experiences.map((item, index) => (
                         <div className='flex justify-between items-center mb-6 mt-4'>
                             <div className=' flex items-center' key={index}>
-                                <Image src={item.logo} alt={item.company_name} width={40} height={40} className='rounded-md mr-3 mt-1' />
+                                <a href={item.href} target='_blank'>
+                                    <Image src={item.logo} alt={item.company_name} width={40} height={40} className='rounded-md mr-3 mt-1' />
+                                </a>
                                 <div>
                                     <h3>{item.company_name}</h3>
                                     <p className='text-sm dark:text-white/70 text-black/70'>{item.title}</p>

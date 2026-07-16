@@ -18,8 +18,8 @@ const HomePage = () => {
             <About /><br />
             {/* <Gallery /> */}
             <HallOfFame />
-            {/* <Experiences /> */}
-            {/* <Education /> */}
+            <Experiences />
+            <Education />
             <Projects /><br />
             {/* <ContributionsGraph /> */}
             {/* <ContactMe /> */}

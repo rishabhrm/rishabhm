@@ -1,8 +1,6 @@
 import React from 'react'
 import HighLight from './HighLight'
 import ProjectsCard from './ProjectsCard'
-import byteScreen from '../../public/assets/0byte.jpeg'
-import solPayReady from '../../public/assets/solpay-ready.jpeg'
 
 const Projects = () => {
   const myProjects = [

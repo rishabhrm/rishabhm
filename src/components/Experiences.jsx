@@ -6,47 +6,28 @@ import { Collapsible, CollapsibleContent, CollapsibleTrigger } from './ui/collap
 import { ChevronRight } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
-
 const Experiences = () => {
     const [openItems, setOpenItems] = useState({})
     const toggleItem = (index) => {
         setOpenItems(prev => ({ ...prev, [index]: !prev[index] }));
     }
     const experiences = [
-        // {
-        //     logo: "https://avatars.githubusercontent.com/u/195132230?s=200&v=4",
-        //     company_name: "Nolabs Tech",
-        //     title: "Co-Founder & CEO",
-        //     // href: "https://www.0byte.tech/",
-        //     from_to_date: "July 2024 - Present",
-        //     description: "A deep-tech studio in Gurgaon (with a Delaware entity in the works) that fuses advanced cryptography, blockchain, and human-centric AI to build the trust infrastructure and intelligent tools of tomorrow’s internet—projects like 0byte, which brings cryptographic authenticity to AI-generated media, and Acraia, an autonomous AI interview platform. We pair rigorous engineering with rapid, product-first iteration—ship, learn, refine—assembling a lean team of builders who turn ambitious ideas into production-ready systems that feel effortless for users, enabling them to move faster, trust what they see, and focus on what matters."
-        // },
-        // {
-        //     logo: "https://avatars.githubusercontent.com/u/182339599?s=200&v=4",
-        //     company_name: "0byte",
-        //     title: "Co-Founder & CEO",
-        //     href: "https://0byte.tech/",
-        //     from_to_date: "Sep 2024 - Present",
-        //     description: " I’ve been leading the web front of 0byte—“SSL for AI content,” an in-progress zero-knowledge protocol that embeds tamper-evident proofs into AI-generated media and anchors them on Solana. I’m architecting a Next.js (App Router) + Tailwind interface where users can drag-and-drop media, generate proofs, and verify authenticity in a single click. By wiring the UI directly to our Python/Rust SDK via edge APIs, I’ve already cut proof round-trip latency to < 700 ms and added optimistic states for instant feedback. Strict TypeScript contracts, accessibility reviews, and automated tests keep the codebase solid while early user testing shows a 40 % jump in engagement. Working hand-in-hand with my co-founder on the ZK backend, I’m continuously refining features, polishing UX, and guiding 0byte toward a public launch."
-
-        // },
-        // {
-        //     logo: "https://avatars.githubusercontent.com/u/100866366?s=200&v=4",
-        //     company_name: "AssessPrep",
-        //     title: "Frontend Developer",
-        //     href: "https://www.assessprep.com/",
-        //     from_to_date: "Sep 2023 - Jun 2024",
-        //     description: " Increased user engagement by 30% through the development of AI-powered features, including GPT Plus model integration for PDF-based question generation. Reduced critical bug reports by 40% by implementing a comprehensive error tracking and resolution system, significantly improving overall user experience. Improved team productivity by 20% through the development of an integration between question segment reporting and Slack, optimizing workflow eﬃciency."
-
-        // },
-        // {
-        //     logo: "https://media.licdn.com/dms/image/v2/C4E0BAQFnhicLFvzh7g/company-logo_200_200/company-logo_200_200/0/1630626353923/techinfy_logo?e=1748476800&v=beta&t=0CEbpabuF6WqsDVsnj8XfUR7xwWEdWDWIvMht04tST0",
-        //     company_name: "Techinfy Solutions",
-        //     title: "Business and Data Analyst",
-        //     href: "https://www.techinfy.in/",
-        //     from_to_date: "Sep 2021 - Feb 2022",
-        //     description: "Played a key role in developing and implementing the HRMS for centralized employee data management, a Legal Module for streamlined case handling and lawyer communications, and a Note Sheet Module to digitize internal government communications. Responsibilities included gathering client requirements, preparing documentation, and maintaining daily client liaison, significantly reducing processing time and minimizing errors across the organization's operations."
-        // },
+        {
+            logo: "/assets/coderack.png", 
+            company_name: "Coderack IT Labs",
+            title: "CRM Developer/Consultant",
+            href: "https://www.coderack.net/",
+            from_to_date: "Jun 2026 - Present",
+            description: "Assisted in automating business processes by developing and configuring custom applications across the Zoho ecosystem, including Creator, CRM, and Books. Handled Deluge scripting to automate daily workflows, integrated third-party platforms like Shopify and Razorpay via REST APIs, and helped deploy Zoho SalesIQ chatbots to improve customer engagement. Working alongside the team, I contributed to streamlining client operations, lead management, and support handoffs across various projects."
+        },
+        {
+            logo: "/assets/itsouls.png", 
+            company_name: "ITsouls",
+            title: "Full-Stack Developer Intern",
+            href: "https://www.itsouls.com/",
+            from_to_date: "Dec 2025 - Apr 2026",
+            description: " Built a production-ready web application for QCFI Vadodara using React and Node.js, working closely with stakeholders to deliver features based on real-world needs. Handled the complete development process from understanding requirements and designing solutions to building, testing, and deploying the application. Improved a legacy ERP system by converting complex MS SQL stored procedures into structured Node.js REST APIs, making the system easier to maintain, faster to scale, and more flexible for future integrations. Solved integration challenges between legacy systems and modern APIs by optimizing queries and maintaining reliable data flow."
+        }
     ]
     return (
         <div className='w-full max-w-2xl mx-auto'>
